@@ -13,6 +13,7 @@ export default (req: any, res: any) => {
     .send(msg)
     .then(() => {
       console.log('Email sent')
+      setTimeout(()=>{console.log("hello")}, 5000);
     })
     .catch((error:any) => {
       console.error(error)
