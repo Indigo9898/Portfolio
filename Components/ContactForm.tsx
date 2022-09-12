@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-// import sendEmail from "../pages/api/nodemailer";
+
 
 const ContactForm = () => {
   const [userEmail, setEmail] = useState("");

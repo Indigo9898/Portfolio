@@ -1,4 +1,4 @@
-export default (req: any, res: any) => {
+export default function handler(req: any, res: any){
   const body = JSON.parse(req.body);
   const sgMail = require('@sendgrid/mail')
   sgMail.setApiKey(process.env.SENDGRID_API_KEY)
