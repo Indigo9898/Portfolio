@@ -208,8 +208,8 @@ module.exports = {
       'fit': 'fit',
     },
     backgroundImage:{
-      'mainGradient' : 'linear-gradient(-30deg, rgba(1,22,39,1) 30%, rgba(46,196,182,1) 100%);',
-      'mainGradientMobile' : 'linear-gradient(-30deg, rgba(1,22,39,1) 15%, rgba(46,196,182,1) 100%);'
+      'mainGradient' : 'linear-gradient(-30deg, rgba(1,22,39,1) 30%, rgba(46,196,182,1) 100%)',
+      'mainGradientMobile' : 'linear-gradient(-30deg, rgba(1,22,39,1) 15%, rgba(46,196,182,1) 100%)'
     }
   },
   plugins: [],
