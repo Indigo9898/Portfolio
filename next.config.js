@@ -14,5 +14,8 @@ module.exports = {
         permanent: true,
       },
     ]
+  },
+  env: {
+    NEXT_PUBLIC_SENDGRID_API_KEY: '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'
   }
 };

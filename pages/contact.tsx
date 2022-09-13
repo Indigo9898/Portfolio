@@ -4,7 +4,9 @@ import Nav from "./../Components/Nav";
 import ContactForm from "./../Components/ContactForm";
  
 let Contact: NextPage = () => {
+  console.log(process.env.NEXT_PUBLIC_SENDGRID_API_KEY);
   return (
+    
     <div className="min-h-full h-full w-100 bg-mainGradientMobile md:bg-mainGradient text-mainWhite">
       <div className="h-1/10 w-100">
         <Nav />
