@@ -16,6 +16,6 @@ module.exports = {
     ]
   },
   env: {
-    NEXT_PUBLIC_SENDGRID_API_KEY: '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'
+    NEXT_PUBLIC_SENDGRID_API_KEY: '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'
   }
 };

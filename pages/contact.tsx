@@ -4,7 +4,6 @@ import Nav from "./../Components/Nav";
 import ContactForm from "./../Components/ContactForm";
  
 let Contact: NextPage = () => {
-  console.log(process.env.NEXT_PUBLIC_TEST);
   return (
     
     <div className="min-h-full h-full w-100 bg-mainGradientMobile md:bg-mainGradient text-mainWhite">
