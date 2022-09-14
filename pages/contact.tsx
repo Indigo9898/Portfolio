@@ -5,7 +5,6 @@ import ContactForm from "./../Components/ContactForm";
  
 let Contact: NextPage = () => {
   return (
-    
     <div className="min-h-full h-full w-100 bg-mainGradientMobile md:bg-mainGradient text-mainWhite">
       <div className="h-1/10 w-100">
         <Nav />
